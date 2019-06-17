@@ -1,0 +1,125 @@
+body {  
+    margin: 0;
+    height: 100vh;   
+    overflow: hidden;
+}
+.container{
+    margin:0;
+    padding:0;
+    @media (min-width: 1200px){
+        max-width: 1999px;}
+    @media (min-width: 992px) {
+        max-width: 1999px;}
+    @media (min-width: 768px){
+        max-width: 1999px;}
+    @media (min-width: 576px){
+        max-width: 1999px;}
+}
+.collapsible{
+    z-index: 2;
+}
+.nav{
+    position: absolute;
+    margin: 20px;
+    width: 90%;
+    z-index: 3;
+}
+.nav>a{
+    color: black;
+}
+li>a{
+    color:black;
+}
+.pull-right{
+    margin:0px, 50px !important; 
+}
+ul{
+    float:right
+}
+#logo {
+    vertical-align:middle;
+}
+.navbar-brand span {
+    font-size:2rem;
+    line-height:1.2;
+    font-weight: 200;
+    display:inline-block;
+    vertical-align:middle;
+    padding:0 0 0 15px;
+}
+.navbar-brand b {
+    display:block;
+    font-size:50%;
+    line-height:1;
+}
+.navbar{
+  background-color: rgb(31, 31, 31);
+}
+.navbar-nav {
+  margin-left:auto;
+}
+section {
+    
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    
+    div{
+        background-color: white;
+        height: 100vh;    
+    }
+}
+
+h1{
+    font-size: 5em;
+    position: absolute;
+   
+    top: 40%;
+    left: 12%;
+    opacity: 0;
+    z-index: 2;
+    margin: 0;
+}
+
+.name{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    z-index: 3;
+    height: 500px;
+    width: 500px;
+}
+p{
+    position: absolute;
+    max-height: 35%;
+    top: 50%;
+    left:15%;
+    width: 80%;
+    z-index: 3;
+    opacity: 0;
+    overflow: auto;
+   
+}
+
+#card-1{
+    display:none;
+    position: absolute;
+    top:25%;
+    left:17%;
+    width: 65%;
+    z-index: 2;
+    
+}
+.fabs{
+    position: absolute;
+    bottom: .25%;
+    left: 50%;
+  transform: translateX(-50%);
+    z-index: 3;
+    opacity: 0;
+}
+.fab{
+    margin: 0px 10px;
+}
+.resume{
+    margin-bottom:21px;
+}

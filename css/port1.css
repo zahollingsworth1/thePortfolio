@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1999px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1999px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1999px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 1999px;
+  }
+}
+
+.collapsible {
+  z-index: 2;
+}
+
+.nav {
+  position: absolute;
+  margin: 20px;
+  width: 90%;
+  z-index: 3;
+}
+
+.nav > a {
+  color: black;
+}
+
+li > a {
+  color: black;
+}
+
+.pull-right {
+  margin: 0px, 50px !important;
+}
+
+ul {
+  float: right;
+}
+
+#logo {
+  vertical-align: middle;
+}
+
+.navbar-brand span {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 200;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 0 0 15px;
+}
+
+.navbar-brand b {
+  display: block;
+  font-size: 50%;
+  line-height: 1;
+}
+
+.navbar {
+  background-color: #1f1f1f;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[10];
+      grid-template-columns: repeat(10, auto);
+  -webkit-transform: scaleY(2) translateX(-20%) rotate(45deg);
+          transform: scaleY(2) translateX(-20%) rotate(45deg);
+}
+
+section div {
+  height: 100vh;
+  width: 95%;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  background-color: #48c467;
+  opacity: .7;
+}
+
+#card-1 {
+  position: absolute;
+  top: 80%;
+  left: 17%;
+  width: 65%;
+  z-index: 2;
+  opacity: 0;
+}
+
+.fabs {
+  position: absolute;
+  bottom: .25%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 3;
+  opacity: 0;
+}
+
+.fab {
+  margin: 0px 10px;
+}
+
+.resume {
+  margin-bottom: 21px;
+}
+/*# sourceMappingURL=port1.css.map */
